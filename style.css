@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "android";
+  src: url("/fontes/idroid.otf");
+}
+
+body {
+  background-color: rgb(100, 255, 170);
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: linear-gradient(180deg, rgb(54, 170, 54), rgb(0, 60, 0));
+  color: white;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  width: 65%;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 1px 0px 30px;
+}
+
+#footer {
+  background-color: rgb(0, 60, 0);
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+
+.menu {
+  text-align: center;
+  font-size: 10px;
+  display: inline-flex;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.menu:hover {
+  background-color: rgb(0, 100, 0);
+  transition-duration: 0.5s;
+}
+
+div#bloco {
+  background-color: rgba(100, 255, 170, 0.3);
+  width: 95%;
+  border-radius: 40px 40px 20px 10px;
+  margin: 10px 20px 0px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 60, 0);
+  font-family: android;
+  margin: 30px 0px 0px 20px;
+}
+
+h3 {
+  color: rgb(0, 60, 0);
+  background-image: linear-gradient(90deg, rgba(100, 255, 170, 0.3), white);
+  font-family: android;
+  margin-left: 20px;
+  padding: 2px 0px;
+}
+
+h4 {
+  background-color: rgb(54, 170, 54);
+  color: white;
+  border-radius: 10px 20px 0px 0px;
+  padding: 15px 5px;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  text-indent: 5%;
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+#p1 {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  text-indent: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  color: rgb(0, 100, 0);
+}
+
+footer strong {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::before {
+  content: "✔ ";
+}
+
+.cont {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.lista {
+  display: inline-block;
+  width: 49%;
+}
+
+#video {
+  background-color: rgb(0, 60, 0);
+  text-align: center;
+}
+
+iframe {
+  width: 90%;
+  padding: 20px 0px;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 90%;
+}
+
+img#mascote {
+  max-width: 300px;
+}
